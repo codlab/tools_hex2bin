@@ -1,0 +1,27 @@
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\bin\Debug\Hex to Bin.exe
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\bin\Debug\Hex to Bin.pdb
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Form1.resources
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Properties.Resources.resources
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\Hex to Bin.exe
+C:\Users\Gabriele\AppData\Local\Temporary Projects\Hex to Bin\obj\x86\Debug\Hex to Bin.pdb
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex to Bin.exe
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex to Bin.pdb
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\bin\Debug\Hex to Bin.exe
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\bin\Debug\Hex to Bin.pdb
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Form1.resources
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Properties.Resources.resources
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Experiments\Bootloader WiFi\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex to Bin.exe
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex to Bin.pdb
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\bin\Debug\Hex to Bin.exe
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\bin\Debug\Hex to Bin.pdb
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Form1.resources
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\Hex_to_Bin.Properties.Resources.resources
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\OpenPicus - Clienti\Smarlogy\Hex2Bin\Hex to Bin\Hex to Bin\obj\x86\Debug\GenerateResource.write.1.tlog
