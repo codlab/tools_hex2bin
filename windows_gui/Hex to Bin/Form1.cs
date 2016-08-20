@@ -59,10 +59,10 @@ namespace Hex_to_Bin
         * function to evaluate a single line of the .hex file. The function
         * takes as parameter one line of the .hex file, parses all the
         * fields and controls the checksum.
-        * 
-        * Return: 
+        *
+        * Return:
         * an int value indicating the report for the function. 0 for
-        * operation executed with success, other values for some kind of 
+        * operation executed with success, other values for some kind of
         * error
         * ****************************************************************/
         private int ValLine(string line2eval)
@@ -79,7 +79,7 @@ namespace Hex_to_Bin
             {
                 return ERR_BAD_FILE_FORMAT;
             }
-          
+
             //  CHECK #2: for the effective line length
             if (line2eval.Length != (10 + bytecount * 2))
                 return ERR_BAD_FILE_FORMAT;
@@ -103,14 +103,14 @@ namespace Hex_to_Bin
             if (checksum.ToUpper() != checkcomp.ToUpper())
                 return ERR_BAD_CHECKSUM;
 
-            //  The length of the line  and the checksum is ok, so we can 
+            //  The length of the line  and the checksum is ok, so we can
             //  proceed reading the other fields: address, record type and data
             try
             {
                 address = Convert.ToUInt32(line2eval.Substring(2, 4), 16);
                 rectype = Convert.ToInt16(line2eval.Substring(6, 2), 16);
             }
-            catch 
+            catch
             {
                 return ERR_BAD_FILE_FORMAT;
             }
@@ -125,10 +125,10 @@ namespace Hex_to_Bin
         * function to create the bin structure. This function writes the data
         * inside the array filearray[]. Then can be written directly inside
         * a binary file.
-        * 
-        * Return: 
+        *
+        * Return:
         * an int value indicating the report for the function. 0 for
-        * operation executed with success, other values for some kind of 
+        * operation executed with success, other values for some kind of
         * error
         * ****************************************************************/
         private int CreateBin()
@@ -182,7 +182,7 @@ namespace Hex_to_Bin
                     catch
                     {
                         return ERR_BAD_FILE_FORMAT;
-                    }                
+                    }
                     break;
 
             }
@@ -196,16 +196,16 @@ namespace Hex_to_Bin
          * function to convert the specified hex file into bin. the function
          * firstly will perform a validation of the hex file (format and
          * checksum) and then will convert it into binary.
-         * 
-         * Return: 
+         *
+         * Return:
          * an int value indicating the report for the function. 0 for
-         * operation executed with success, other values for some kind of 
+         * operation executed with success, other values for some kind of
          * error
          * ****************************************************************/
         private int Convert2bin(StreamReader filetoconv)
         {
             int retval;
-            
+
             //  Check for correct file format
 
 
@@ -270,10 +270,10 @@ namespace Hex_to_Bin
                     string hexValue = "";
                     tbOut.Text += "MD5 calculation and file saving... ";
                     byte[] fileData = File.ReadAllBytes(file_bin.Name);
-                    byte[] hashData = MD5.Create().ComputeHash(fileData); 
+                    byte[] hashData = MD5.Create().ComputeHash(fileData);
                     foreach (byte b in hashData)
                     {
-                        hexValue = b.ToString("X").ToLower(); 
+                        hexValue = b.ToString("X").ToLower();
                         hashText += (hexValue.Length == 1 ? "0" : "") + hexValue;
                     }
 
@@ -309,7 +309,7 @@ namespace Hex_to_Bin
 
 
         private void button1_Click(object sender, EventArgs e)
-        {            
+        {
             int valfile;
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.DefaultExt = "hex";
@@ -322,8 +322,8 @@ namespace Hex_to_Bin
                     // Insert code here to process the files.
                     filecheck = filename;
                 }
-            
-            
+
+
 
                 tbOut.Text = "";
                 //  FILE CONVERSION
