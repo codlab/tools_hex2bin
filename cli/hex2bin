@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# please to the README Installation section to more information
+
+mono ~/bin/mono/hex2bin.exe $@
